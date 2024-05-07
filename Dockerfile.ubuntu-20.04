@@ -45,12 +45,13 @@ RUN set -eux ; \
   libxkbcommon-dev \
   libxkbcommon-x11-dev
 
+# --parallel removed to not get killed
 RUN set -eux ; \
   mkdir /ghjk ; cd /ghjk ; \
   wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
   tar -xvof qt-everywhere-src-6.6.3.tar.xz ; \
   mkdir build ; cd build ; \
   ../qt-everywhere-src-6.6.3/configure -static ; \
-  cmake --build . --parallel ; \
+  cmake --build . ; \
   cmake --install . ; \
   rm -rf /ghjk
