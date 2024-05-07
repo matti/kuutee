@@ -46,12 +46,6 @@ RUN set -eux ; \
   libxkbcommon-x11-dev
 
 # separate to speedup retries
-RUN set -eux ; \
-  mkdir /ghjk ; cd /ghjk ; \
-  wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
-  tar -xvof qt-everywhere-src-6.6.3.tar.xz
-
-# separate to speedup retries
 # --parallel causes anything below 50gb ram or so to get killed
 RUN set -eux ; \
   mkdir /ghjk ; cd /ghjk ; \

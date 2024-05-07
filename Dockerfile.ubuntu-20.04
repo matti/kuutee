@@ -50,12 +50,6 @@ RUN set -eux ; \
   wget -qO- "https://github.com/Kitware/CMake/releases/download/v3.28.4/cmake-3.28.4-linux-aarch64.tar.gz" | tar --strip-components=1 -xz -C /usr/local
 
 # separate to speedup retries
-RUN set -eux ; \
-  mkdir /ghjk ; cd /ghjk ; \
-  wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
-  tar -xvof qt-everywhere-src-6.6.3.tar.xz
-
-# separate to speedup retries
 # --parallel causes anything below 50gb ram or so to get killed
 RUN set -eux ; \
   mkdir /ghjk ; cd /ghjk ; \
