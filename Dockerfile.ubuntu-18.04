@@ -55,11 +55,11 @@ RUN set -eux ; \
   wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
   tar -xvof qt-everywhere-src-6.6.3.tar.xz
 
-# --parallel removed to not get killed
+# --parallel causes anything below 50gb ram or so to get killed
 RUN set -eux ; \
   cd /ghjk ; \
   mkdir build ; cd build ; \
   ../qt-everywhere-src-6.6.3/configure -static ; \
-  cmake --build . ; \
+  cmake --build . --parallel ; \
   cmake --install . ; \
   rm -rf /ghjk
