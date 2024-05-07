@@ -51,9 +51,12 @@ RUN set -eux ; \
   wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
   tar -xvof qt-everywhere-src-6.6.3.tar.xz
 
+# separate to speedup retries
 # --parallel causes anything below 50gb ram or so to get killed
 RUN set -eux ; \
-  cd /ghjk ; \
+  mkdir /ghjk ; cd /ghjk ; \
+  wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
+  tar -xvof qt-everywhere-src-6.6.3.tar.xz ; \
   mkdir build ; cd build ; \
   ../qt-everywhere-src-6.6.3/configure -static ; \
   cmake --build . --parallel ; \
