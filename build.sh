@@ -16,4 +16,5 @@ do
   ) | tee -a "build-$service.log"
 done
 
-_log "done"
+# PROTIP: save money
+# shutdown -P now
