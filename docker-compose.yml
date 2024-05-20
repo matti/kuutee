@@ -17,6 +17,12 @@ services:
       context: .
       dockerfile: Dockerfile.ubuntu-22.04
 
+  ubuntu2204-special:
+    image: mattipaksula/kuutee:arm-ubuntu-22-04-qt-6.6.3-static-special
+    build:
+      context: .
+      dockerfile: Dockerfile.ubuntu-22.04-special
+
   ubuntu2404:
     image: mattipaksula/kuutee:arm-ubuntu-24-04-qt-6.6.3-static
     build:

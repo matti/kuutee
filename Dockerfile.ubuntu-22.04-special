@@ -1,0 +1,58 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PATH=/usr/local/Qt-6.6.3/:$PATH
+
+RUN set -eux ; \
+  apt-get update ; apt-get upgrade -y
+
+RUN set -eux ; \
+  apt-get update ; apt-get install -y --no-install-recommends \
+  wget curl git ca-certificates xz-utils \
+  build-essential cmake python3
+
+# opengl
+RUN set -eux ; \
+  apt-get update ; apt-get install -y \
+  libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+# https://doc.qt.io/qt-6/linux-requirements.html
+RUN set -eux ; \
+  apt-get update ; apt-get install -y --no-install-recommends \
+  libfontconfig1-dev \
+  libfreetype6-dev \
+  libx11-dev \
+  libx11-xcb-dev \
+  libxext-dev \
+  libxfixes-dev \
+  libxi-dev \
+  libxrender-dev \
+  libxcb1-dev \
+  libxcb-cursor-dev \
+  libxcb-glx0-dev \
+  libxcb-keysyms1-dev \
+  libxcb-image0-dev \
+  libxcb-shm0-dev \
+  libxcb-icccm4-dev \
+  libxcb-sync-dev \
+  libxcb-xfixes0-dev \
+  libxcb-shape0-dev \
+  libxcb-randr0-dev \
+  libxcb-render-util0-dev \
+  libxcb-util-dev \
+  libxcb-xinerama0-dev \
+  libxcb-xkb-dev \
+  libxkbcommon-dev \
+  libxkbcommon-x11-dev
+
+# separate to speedup retries
+# --parallel causes anything below 50gb ram or so to get killed
+RUN set -eux ; \
+  mkdir /ghjk ; cd /ghjk ; \
+  wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
+  tar -xvof qt-everywhere-src-6.6.3.tar.xz ; \
+  mkdir build ; cd build ; \
+  ../qt-everywhere-src-6.6.3/configure -static ; \
+  cmake --build . --parallel ; \
+  cmake --install . ; \
+  rm -rf /ghjk
