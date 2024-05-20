@@ -52,7 +52,7 @@ RUN set -eux ; \
   wget https://download.qt.io/official_releases/qt/6.6/6.6.3/single/qt-everywhere-src-6.6.3.tar.xz ; \
   tar -xvof qt-everywhere-src-6.6.3.tar.xz ; \
   mkdir build ; cd build ; \
-  ../qt-everywhere-src-6.6.3/configure -static ; \
+  ../qt-everywhere-src-6.6.3/configure -static -opengl es2 -opengles3 -eglfs -egl -no-gstreamer -no-openssl ; \
   cmake --build . --parallel ; \
   cmake --install . ; \
   rm -rf /ghjk
