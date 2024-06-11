@@ -1,0 +1,594 @@
+177.2 '/usr/bin/cmake' '-DQT_INTERNAL_CALLED_FROM_CONFIGURE:BOOL=TRUE' '-DBUILD_SHARED_LIBS=OFF' '-G' 'Unix Makefiles' '/ghjk/qt-everywhere-src-6.6.2'
+177.2 -- The CXX compiler identification is GNU 12.2.0
+177.2 -- The C compiler identification is GNU 12.2.0
+177.2 -- The ASM compiler identification is GNU
+177.2 -- Found assembler: /usr/bin/cc
+177.2 -- Detecting CXX compiler ABI info
+177.2 -- Detecting CXX compiler ABI info - done
+177.2 -- Check for working CXX compiler: /usr/bin/c++ - skipped
+177.2 -- Detecting CXX compile features
+177.2 -- Detecting CXX compile features - done
+177.2 -- Detecting C compiler ABI info
+177.2 -- Detecting C compiler ABI info - done
+177.2 -- Check for working C compiler: /usr/bin/cc - skipped
+177.2 -- Detecting C compile features
+177.2 -- Detecting C compile features - done
+177.2 -- Checking dependencies of submodule 'qtbase'
+177.2 -- Checking dependencies of submodule 'qtimageformats'
+177.2 -- Checking dependencies of submodule 'qtlanguageserver'
+177.2 -- Checking dependencies of submodule 'qtshadertools'
+177.2 -- Checking dependencies of submodule 'qtsvg'
+177.2 -- Checking dependencies of submodule 'qtdeclarative'
+177.2 -- Checking dependencies of submodule 'qtquicktimeline'
+177.2 -- Checking dependencies of submodule 'qtquick3d'
+177.2 -- Checking dependencies of submodule 'qtmultimedia'
+177.2 -- Checking dependencies of submodule 'qt3d'
+177.2 -- Checking dependencies of submodule 'qt5compat'
+177.2 -- Checking dependencies of submodule 'qtactiveqt'
+177.2 -- Checking dependencies of submodule 'qtcharts'
+177.2 -- Checking dependencies of submodule 'qtcoap'
+177.2 -- Checking dependencies of submodule 'qtconnectivity'
+177.2 -- Checking dependencies of submodule 'qtdatavis3d'
+177.2 -- Checking dependencies of submodule 'qtwebsockets'
+177.2 -- Checking dependencies of submodule 'qthttpserver'
+177.2 -- Checking dependencies of submodule 'qttools'
+177.2 -- Checking dependencies of submodule 'qtserialport'
+177.2 -- Checking dependencies of submodule 'qtpositioning'
+177.2 -- Checking dependencies of submodule 'qtwebchannel'
+177.2 -- Checking dependencies of submodule 'qtwebengine'
+177.2 -- Checking dependencies of submodule 'qtdoc'
+177.2 -- Checking dependencies of submodule 'qtgraphs'
+177.2 -- Checking dependencies of submodule 'qtgrpc'
+177.2 -- Checking dependencies of submodule 'qtlocation'
+177.2 -- Checking dependencies of submodule 'qtlottie'
+177.2 -- Checking dependencies of submodule 'qtmqtt'
+177.2 -- Checking dependencies of submodule 'qtnetworkauth'
+177.2 -- Checking dependencies of submodule 'qtopcua'
+177.2 -- Checking dependencies of submodule 'qtquick3dphysics'
+177.2 -- Checking dependencies of submodule 'qtquickeffectmaker'
+177.2 -- Checking dependencies of submodule 'qtremoteobjects'
+177.2 -- Checking dependencies of submodule 'qtscxml'
+177.2 -- Checking dependencies of submodule 'qtsensors'
+177.2 -- Checking dependencies of submodule 'qtserialbus'
+177.2 -- Checking dependencies of submodule 'qtspeech'
+177.2 -- Checking dependencies of submodule 'qttranslations'
+177.2 -- Checking dependencies of submodule 'qtvirtualkeyboard'
+177.2 -- Checking dependencies of submodule 'qtwayland'
+177.2 -- Checking dependencies of submodule 'qtwebview'
+177.2 -- Configuring submodule 'qtbase'
+177.2 -- [QtBase] Setting build type to 'Release' as none was specified.
+177.2 -- Configuring submodule 'qtimageformats'
+177.2 -- [QtImageFormats] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtlanguageserver'
+177.2 -- [QtLanguageServer] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtshadertools'
+177.2 -- [QtShaderTools] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtsvg'
+177.2 -- [QtSvg] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtdeclarative'
+177.2 -- [QtDeclarative] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtquicktimeline'
+177.2 -- [QtQuickTimeline] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtquick3d'
+177.2 -- [QtQuick3D] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtmultimedia'
+177.2 -- [QtMultimedia] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qt3d'
+177.2 -- Configuring submodule 'qt5compat'
+177.2 -- [Qt5Compat] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtactiveqt'
+177.2 -- [QtActiveQt] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtcharts'
+177.2 -- Could NOT find Qt6OpenGL (missing: Qt6OpenGL_DIR)
+177.2 -- Could NOT find Qt6OpenGLWidgets (missing: Qt6OpenGLWidgets_DIR)
+177.2 -- [QtCharts] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtcoap'
+177.2 -- [QtCoap] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtconnectivity'
+177.2 -- [QtConnectivity] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtdatavis3d'
+177.2 -- Could NOT find Qt6OpenGL (missing: Qt6OpenGL_DIR)
+177.2 -- Configuring submodule 'qtwebsockets'
+177.2 -- [QtWebSockets] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qthttpserver'
+177.2 -- [QtHttpServer] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qttools'
+177.2 -- [QtTools] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Could NOT find Clang (missing: Clang_DIR)
+177.2 -- Could NOT find Clang (missing: Clang_DIR)
+177.2 -- Configuring submodule 'qtserialport'
+177.2 -- [QtSerialPort] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtpositioning'
+177.2 -- [QtPositioning] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtwebchannel'
+177.2 -- [QtWebChannel] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtwebengine'
+177.2 -- [QtWebEngine] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtdoc'
+177.2 -- [QtDoc] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtgraphs'
+177.2 -- [QtGraphs] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtgrpc'
+177.2 -- [QtGrpc] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtlocation'
+177.2 -- [QtLocation] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtlottie'
+177.2 -- [QtLottie] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtmqtt'
+177.2 -- [QtMqtt] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtnetworkauth'
+177.2 -- [QtNetworkAuth] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtopcua'
+177.2 -- [QtOpcUa] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtquick3dphysics'
+177.2 -- [QtQuick3DPhysics] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtquickeffectmaker'
+177.2 -- [QQEffectMaker] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtremoteobjects'
+177.2 -- [QtRemoteObjects] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtscxml'
+177.2 -- Could NOT find Qt6OpenGL (missing: Qt6OpenGL_DIR)
+177.2 -- Could NOT find Qt6OpenGLWidgets (missing: Qt6OpenGLWidgets_DIR)
+177.2 -- [QtScxml] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtsensors'
+177.2 -- [QtSensors] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtserialbus'
+177.2 -- [QtSerialBus] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtspeech'
+177.2 -- [QtSpeech] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qttranslations'
+177.2 -- CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtvirtualkeyboard'
+177.2 -- [QtVirtualKeyboard] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtwayland'
+177.2 -- [QtWayland] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2 -- Configuring submodule 'qtwebview'
+177.2 -- Could NOT find Qt6OpenGL (missing: Qt6OpenGL_DIR)
+177.2 -- Could NOT find Qt6WebEngineCore (missing: Qt6WebEngineCore_DIR)
+177.2 -- Could NOT find Qt6WebEngineQuick (missing: Qt6WebEngineQuick_DIR)
+177.2 -- [QtWebView] CMAKE_BUILD_TYPE was set to: 'Release'
+177.2
+177.2 -- Configure summary:
+177.2
+177.2 Building for: linux-g++ (arm64, CPU features: cx16 neon)
+177.2 Compiler: gcc 12.2.0
+177.2 Build options:
+177.2   Mode ................................... release
+177.2   Optimize release build for size ........ no
+177.2   Fully optimize release builds (-O3) .... no
+177.2   Building shared libraries .............. no
+177.2   Using ccache ........................... no
+177.2   Unity Build ............................ no
+177.2   Using new DTAGS ........................ yes
+177.2   Relocatable ............................ no
+177.2   Using precompiled headers .............. yes
+177.2   Using Link Time Optimization (LTCG) .... no
+177.2   Using Intel CET ........................ no
+177.2   Target compiler supports:
+177.2     ARM Extensions ....................... NEON
+177.2   Sanitizers:
+177.2     Addresses ............................ no
+177.2     Threads .............................. no
+177.2     Memory ............................... no
+177.2     Fuzzer (instrumentation only) ........ no
+177.2     Undefined ............................ no
+177.2   Build parts ............................ libs tools
+177.2   Install examples sources ............... no
+177.2 Qt modules and options:
+177.2   Qt Concurrent .......................... yes
+177.2   Qt D-Bus ............................... yes
+177.2   Qt D-Bus directly linked to libdbus .... no
+177.2   Qt Gui ................................. yes
+177.2   Qt Network ............................. yes
+177.2   Qt PrintSupport ........................ yes
+177.2   Qt Sql ................................. yes
+177.2   Qt Testlib ............................. yes
+177.2   Qt Widgets ............................. yes
+177.2   Qt Xml ................................. yes
+177.2 Support enabled for:
+177.2   Using pkg-config ....................... yes
+177.2   Using vcpkg ............................ no
+177.2   udev ................................... no
+177.2   OpenSSL ................................ no
+177.2     Qt directly linked to OpenSSL ........ no
+177.2   OpenSSL 1.1 ............................ no
+177.2   OpenSSL 3.0 ............................ no
+177.2   Using system zlib ...................... yes
+177.2   Zstandard support ...................... no
+177.2   Thread support ......................... yes
+177.2 Common build options:
+177.2   Linker can resolve circular dependencies  yes
+177.2 Qt Core:
+177.2   backtrace .............................. yes
+177.2   DoubleConversion ....................... yes
+177.2     Using system DoubleConversion ........ no
+177.2   CLONE_PIDFD support in forkfd .......... yes
+177.2   GLib ................................... no
+177.2   ICU .................................... no
+177.2   Using system libb2 ..................... no
+177.2   Built-in copy of the MIME database ..... yes
+177.2   Application permissions ................ yes
+177.2   Defaulting legacy IPC to POSIX ......... no
+177.2   Tracing backend ........................ <none>
+177.2   OpenSSL based cryptographic hash ....... no
+177.2   Logging backends:
+177.2     journald ............................. no
+177.2     syslog ............................... no
+177.2     slog2 ................................ no
+177.2   PCRE2 .................................. yes
+177.2     Using system PCRE2 ................... no
+177.2 Qt Sql:
+177.2   SQL item models ........................ yes
+177.2 Qt Network:
+177.2   getifaddrs() ........................... yes
+177.2   IPv6 ifname ............................ yes
+177.2   libproxy ............................... no
+177.2   Linux AF_NETLINK ....................... yes
+177.2   DTLS ................................... no
+177.2   OCSP-stapling .......................... no
+177.2   SCTP ................................... no
+177.2   Use system proxies ..................... yes
+177.2   GSSAPI ................................. no
+177.2   Brotli Decompression Support ........... yes
+177.2   qIsEffectiveTLD() ...................... yes
+177.2     Built-in publicsuffix database ....... yes
+177.2     System publicsuffix database ......... yes
+177.2 Core tools:
+177.2   Android deployment tool ................ yes
+177.2   macOS deployment tool .................. no
+177.2   Windows deployment tool ................ no
+177.2   qmake .................................. yes
+177.2 Qt Gui:
+177.2   Accessibility .......................... yes
+177.2   FreeType ............................... yes
+177.2     Using system FreeType ................ yes
+177.2   HarfBuzz ............................... yes
+177.2     Using system HarfBuzz ................ no
+177.2   Fontconfig ............................. yes
+177.2   Image formats:
+177.2     GIF .................................. yes
+177.2     ICO .................................. yes
+177.2     JPEG ................................. yes
+177.2       Using system libjpeg ............... no
+177.2     PNG .................................. yes
+177.2       Using system libpng ................ yes
+177.2   Text formats:
+177.2     HtmlParser ........................... yes
+177.2     CssParser ............................ yes
+177.2     OdfWriter ............................ yes
+177.2     MarkdownReader ....................... yes
+177.2       Using system libmd4c ............... no
+177.2     MarkdownWriter ....................... yes
+177.2   EGL .................................... no
+177.2   OpenVG ................................. no
+177.2   OpenGL:
+177.2     Desktop OpenGL ....................... no
+177.2     OpenGL ES 2.0 ........................ no
+177.2     OpenGL ES 3.0 ........................ no
+177.2     OpenGL ES 3.1 ........................ no
+177.2     OpenGL ES 3.2 ........................ no
+177.2   Vulkan ................................. no
+177.2   Session Management ..................... yes
+177.2 Features used by QPA backends:
+177.2   evdev .................................. yes
+177.2   libinput ............................... no
+177.2   HiRes wheel support in libinput ........ no
+177.2   INTEGRITY HID .......................... no
+177.2   mtdev .................................. no
+177.2   tslib .................................. no
+177.2   xkbcommon .............................. no
+177.2   X11 specific:
+177.2     XLib ................................. no
+177.2     XCB Xlib ............................. no
+177.2     EGL on X11 ........................... no
+177.2     xkbcommon-x11 ........................ no
+177.2     xcb-sm ............................... no
+177.2 QPA backends:
+177.2   DirectFB ............................... no
+177.2   EGLFS .................................. no
+177.2   EGLFS details:
+177.2     EGLFS OpenWFD ........................ no
+177.2     EGLFS i.Mx6 .......................... no
+177.2     EGLFS i.Mx6 Wayland .................. no
+177.2     EGLFS RCAR ........................... no
+177.2     EGLFS EGLDevice ...................... no
+177.2     EGLFS GBM ............................ no
+177.2     EGLFS VSP2 ........................... no
+177.2     EGLFS Mali ........................... no
+177.2     EGLFS Raspberry Pi ................... no
+177.2     EGLFS X11 ............................ no
+177.2   LinuxFB ................................ yes
+177.2   VNC .................................... yes
+177.2   VK_KHR_display ......................... no
+177.2   QNX:
+177.2     lgmon ................................ no
+177.2     IMF .................................. no
+177.2   XCB:
+177.2     Using system-provided xcb-xinput ..... no
+177.2     GL integrations:
+177.2       GLX Plugin ......................... no
+177.2         XCB GLX .......................... no
+177.2       EGL-X11 Plugin ..................... no
+177.2   Windows:
+177.2     Direct 2D ............................ no
+177.2     Direct 2D 1.1 ........................ no
+177.2     DirectWrite .......................... no
+177.2     DirectWrite 3 ........................ no
+177.2 Qt Widgets:
+177.2   GTK+ ................................... no
+177.2   Styles ................................. Fusion Windows
+177.2 Qt Testlib:
+177.2   Tester for item models ................. yes
+177.2   Batch tests ............................ no
+177.2 Qt PrintSupport:
+177.2   CUPS ................................... no
+177.2 Qt Sql Drivers:
+177.2   DB2 (IBM) .............................. no
+177.2   InterBase .............................. no
+177.2   MySql .................................. no
+177.2   OCI (Oracle) ........................... no
+177.2   ODBC ................................... no
+177.2   PostgreSQL ............................. no
+177.2   SQLite ................................. yes
+177.2     Using system provided SQLite ......... no
+177.2   Mimer .................................. no
+177.2 Further Image Formats:
+177.2   JasPer ................................. no
+177.2   MNG .................................... no
+177.2   TIFF ................................... yes
+177.2     Using system libtiff ................. no
+177.2   WEBP ................................... yes
+177.2     Using system libwebp ................. no
+177.2 Qt QML:
+177.2   QML network support .................... yes
+177.2   QML debugging and profiling support .... yes
+177.2   QML just-in-time compiler .............. yes
+177.2   QML XML http request ................... yes
+177.2   QML Locale ............................. yes
+177.2 Qt QML Models:
+177.2   QML list model ......................... yes
+177.2   QML delegate model ..................... yes
+177.2 Qt Quick:
+177.2   AnimatedImage item ..................... yes
+177.2   Canvas item ............................ yes
+177.2   Support for Qt Quick Designer .......... yes
+177.2   Flipable item .......................... yes
+177.2   GridView item .......................... yes
+177.2   ListView item .......................... yes
+177.2   TableView item ......................... yes
+177.2   TreeView item .......................... yes
+177.2   Path support ........................... yes
+177.2   PathView item .......................... yes
+177.2   Positioner items ....................... yes
+177.2   Repeater item .......................... yes
+177.2   ShaderEffect item ...................... yes
+177.2   Sprite item ............................ yes
+177.2 Qt Quick Templates 2:
+177.2   Hover support .......................... yes
+177.2   Multi-touch support .................... yes
+177.2   Calendar support ....................... yes
+177.2 Qt Quick Controls 2:
+177.2   Styles ................................. Basic Fusion Imagine Material Universal
+177.2 QtQuick3D:
+177.2   Assimp ................................. yes
+177.2   System Assimp .......................... no
+177.2 Qt Multimedia:
+177.2   Spatial Audio .......................... yes
+177.2   Spatial Audio (Quick3D) ................ yes
+177.2   Low level Audio Backend:
+177.2     ALSA (experimental) .................. no
+177.2     PulseAudio ........................... no
+177.2     MMRenderer ........................... no
+177.2     CoreAudio ............................ no
+177.2     Windows Media SDK .................... no
+177.2     Open SLES (Android) .................. no
+177.2     Web Assembly ......................... no
+177.2   Plugin:
+177.2     GStreamer 1.0 ........................ no
+177.2     FFmpeg ............................... no
+177.2     MMRenderer ........................... no
+177.2     AVFoundation ......................... no
+177.2     Windows Media Foundation ............. no
+177.2   Hardware acceleration and features:
+177.2     Video for Linux ...................... yes
+177.2     VAAPI support ........................ no
+177.2     Linux DMA buffer support ............. no
+177.2     VideoToolbox ......................... no
+177.2 Qt 5 Compatibility Libraries:
+177.2   iconv .................................. yes
+177.2 Qt Charts Types:
+177.2   Area Chart ............................. yes
+177.2   Line Chart ............................. yes
+177.2   Spline Chart ........................... yes
+177.2   Scatter Chart .......................... yes
+177.2   Bar Chart .............................. yes
+177.2   Pie Chart .............................. yes
+177.2   Boxplot Chart .......................... yes
+177.2   Candlestick Chart ...................... yes
+177.2 Qt Axis Types:
+177.2   DateTime Axis .......................... yes
+177.2 Qt Bluetooth:
+177.2   BlueZ .................................. no
+177.2   BlueZ Low Energy ....................... no
+177.2   Linux Crypto API ....................... no
+177.2   WinRT Bluetooth API .................... no
+177.2 Qt Tools:
+177.2   Qt Assistant ........................... yes
+177.2   libclang found ......................... no
+177.2   Clang-based lupdate parser ............. no
+177.2   Qt Designer ............................ yes
+177.2   Qt Distance Field Generator ............ yes
+177.2   Qt Linguist ............................ yes
+177.2   pixeltool .............................. yes
+177.2   qdbus .................................. yes
+177.2   QDoc ................................... no
+177.2   Qt Attributions Scanner ................ yes
+177.2   qtdiag ................................. yes
+177.2   qtplugininfo ........................... yes
+177.2 Serial Port:
+177.2   ntddmodm ............................... no
+177.2 WebEngine Repository Build Options:
+177.2   Build Ninja ............................ yes
+177.2   Build Gn ............................... yes
+177.2   Jumbo Build ............................ yes
+177.2   Developer build ........................ no
+177.2   Build QtWebEngine Modules:
+177.2     Build QtWebEngineCore ................ no
+177.2     Build QtWebEngineWidgets ............. no
+177.2     Build QtWebEngineQuick ............... no
+177.2   Build QtPdf Modules:
+177.2     Build QtPdfWidgets ................... no
+177.2     Build QtPdfQuick ..................... no
+177.2   Optional system libraries:
+177.2     re2 .................................. no
+177.2     icu .................................. no
+177.2     libwebp, libwebpmux and libwebpdemux . no
+177.2     opus ................................. no
+177.2     ffmpeg ............................... no
+177.2     libvpx ............................... no
+177.2     snappy ............................... no
+177.2     glib ................................. no
+177.2     zlib ................................. yes
+177.2     minizip .............................. no
+177.2     libevent ............................. no
+177.2     libxml2 and libxslt .................. no
+177.2     lcms2 ................................ no
+177.2     png .................................. yes
+177.2     tiff ................................. no
+177.2     jpeg ................................. no
+177.2     libopenjpeg2 ......................... no
+177.2     harfbuzz ............................. no
+177.2     freetype ............................. yes
+177.2     libpci ............................... no
+177.2   Qt 3rdparty libs:
+177.2     qtfreetype ........................... no
+177.2     qtharfbuzz ........................... yes
+177.2     qtpng ................................ no
+177.2     qtjpeg ............................... yes
+177.2     qtzlib ............................... no
+177.2   Qt Protobuf:
+177.2     Qt Core types support ................ no
+177.2     Qt Gui types support ................. no
+177.2     Well-known types support ............. no
+177.2   Qt Protobuf tools:
+177.2     Qt Protobuf generator ................ no
+177.2   Qt GRPC:
+177.2     gRPC support ......................... yes
+177.2     Native gRPC support .................. no
+177.2   Qt GRPC tools:
+177.2     Qt GRPC generator .................... no
+177.2   Qt Opcua:
+177.2     Open62541 ............................ yes
+177.2     Unified Automation C++ SDK ........... no
+177.2     Support for namespace 0 NodeId names . yes
+177.2     Namespace 0 NodeIds generator ........ no
+177.2     Open62541 security support ........... no
+177.2     Support for global discovery server .. no
+177.2   Qt Remote Objects:
+177.2     High Availability Manager (ham) ...... no
+177.2   Qt Scxml:
+177.2     ECMAScript data model for QtScxml .... yes
+177.2   Qt Sensors:
+177.2     sensorfw ............................. no
+177.2     sensorfw_enabled_with_cmake .......... no
+177.2   Qt SerialBus:
+177.2     Socket CAN ........................... yes
+177.2     Socket CAN FD ........................ yes
+177.2     SerialPort Support ................... yes
+177.2   Qt TextToSpeech:
+177.2     Flite ................................ no
+177.2     Flite with ALSA ...................... no
+177.2     Speech Dispatcher .................... no
+177.2   Qt Virtualkeyboard:
+177.2     Desktop integration .................. yes
+177.2     Built-in layouts ..................... yes
+177.2     Key navigation ....................... no
+177.2     Retro style as default ............... no
+177.2     Sensitive Debug ...................... no
+177.2     Cerence .............................. no
+177.2       Static Linking ..................... no
+177.2       Handwriting ........................ no
+177.2         Alphabetic ....................... no
+177.2         CJK .............................. no
+177.2       XT9 ................................ no
+177.2         XT9 Debug ........................ no
+177.2         XT9 9-key layouts ................ no
+177.2       Bundle resources ................... no
+177.2         Handwriting ...................... no
+177.2         XT9 .............................. no
+177.2     Hunspell ............................. no
+177.2       Using Hunspell copy from 3rdparty/ . no
+177.2     OpenWnn .............................. yes
+177.2     MyScript ............................. no
+177.2     Example HWR .......................... no
+177.2     Language support enabled for:
+177.2       Arabic ............................. yes
+177.2       Bulgarian .......................... yes
+177.2       Czech .............................. yes
+177.2       Danish ............................. yes
+177.2       German ............................. yes
+177.2       Greek .............................. yes
+177.2       English GB ......................... yes
+177.2       English US ......................... yes
+177.2       Spanish ............................ yes
+177.2       Spanish Mexico ..................... yes
+177.2       Estonian ........................... yes
+177.2       Farsi .............................. yes
+177.2       Finnish ............................ yes
+177.2       French Canada ...................... yes
+177.2       French France ...................... yes
+177.2       Hebrew ............................. yes
+177.2       Hindi .............................. yes
+177.2       Croatian ........................... yes
+177.2       Hungarian .......................... yes
+177.2       Indonesian ......................... yes
+177.2       Italian ............................ yes
+177.2       Japanese ........................... yes
+177.2       Korean ............................. yes
+177.2       Malay .............................. yes
+177.2       Norwegian .......................... yes
+177.2       Dutch .............................. yes
+177.2       Polish ............................. yes
+177.2       Portuguese Brazil .................. yes
+177.2       Portuguese Portugal ................ yes
+177.2       Romanian ........................... yes
+177.2       Russian ............................ yes
+177.2       Slovak ............................. yes
+177.2       Slovenian .......................... yes
+177.2       Albanian ........................... yes
+177.2       Serbian ............................ yes
+177.2       Swedish ............................ yes
+177.2       Thai ............................... yes
+177.2       Turkish ............................ yes
+177.2       Ukrainian .......................... yes
+177.2       Vietnamese ......................... yes
+177.2       Simplified Chinese ................. yes
+177.2       Traditional Chinese ................ yes
+177.2       HongKong Chinese ................... no
+177.2     Traditional chinese input methods:
+177.2       Zhuyin ............................. yes
+177.2       Cangjie ............................ yes
+177.2   Qt Wayland TextInput Protocol V4(WIP) .. no
+177.2   Qt Wayland Client ...................... yes
+177.2   Qt Wayland Compositor .................. yes
+177.2   Qt Wayland Drivers:
+177.2     EGL .................................. no
+177.2     Raspberry Pi ......................... no
+177.2     DRM EGL .............................. no
+177.2     libhybris EGL ........................ no
+177.2     Linux dma-buf server buffer integration  no
+177.2     Shm emulation server buffer integration  no
+177.2     Vulkan-based server buffer integration  no
+177.2   Qt Wayland Client Shell Integrations:
+177.2     xdg-shell ............................ yes
+177.2     ivi-shell ............................ yes
+177.2     wl-shell (deprecated) ................ yes
+177.2     qt-shell ............................. yes
+177.2   Qt Wayland Compositor Layer Plugins:
+177.2     VSP2 hardware layer integration ...... no
+177.2
+177.2 -- Configuring incomplete, errors occurred!
+177.2 See also "/ghjk/build/CMakeFiles/CMakeOutput.log".
+177.2 See also "/ghjk/build/CMakeFiles/CMakeError.log".
+------
+failed to solve: process "/bin/sh -c set -eux ;     mkdir /ghjk ; cd /ghjk ;     wget https://download.qt.io/official_releases/qt/6.6/6.6.2/single/qt-everywhere-src-6.6.2.tar.xz ;     tar -xvof qt-everywhere-src-6.6.2.tar.xz ;     mkdir build ; cd build ;     ../qt-everywhere-src-6.6.2/configure -static ;     cmake --build . --parallel ;     cmake --install . ;     rm -rf /ghjk" did not complete successfully: exit code: 1
