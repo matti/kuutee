@@ -4,6 +4,12 @@
 
 `c6g.8xlarge` is 32c / 64gb mem and within quota
 
+```console
+sudo su
+apt update # run to have less confusing docker install
+curl -L get.docker.com | sh
+```
+
 ## 18.04 fails
 
 <https://forum.qt.io/topic/153851/qt6-beaglebone-black-armhf-build-issue/5?_=1715137925707&lang=en-US>
