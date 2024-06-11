@@ -1,0 +1,759 @@
+Performing C++ SOURCE FILE Test TEST_use_lld_linker failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-cUV82u
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_38b28/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_38b28.dir/build.make CMakeFiles/cmTC_38b28.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-cUV82u'
+Building CXX object CMakeFiles/cmTC_38b28.dir/src.cxx.o
+/usr/bin/c++ -DTEST_use_lld_linker  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_38b28.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-cUV82u/src.cxx
+Linking CXX executable cmTC_38b28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38b28.dir/link.txt --verbose=1
+/usr/bin/c++ -fuse-ld=lld CMakeFiles/cmTC_38b28.dir/src.cxx.o -o cmTC_38b28
+collect2: fatal error: cannot find ‘ld’
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_38b28.dir/build.make:99: cmTC_38b28] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-cUV82u'
+gmake: *** [Makefile:127: cmTC_38b28/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test TEST_gdb_index failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-D9x0U8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_644c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_644c1.dir/build.make CMakeFiles/cmTC_644c1.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-D9x0U8'
+Building CXX object CMakeFiles/cmTC_644c1.dir/src.cxx.o
+/usr/bin/c++ -DTEST_gdb_index  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_644c1.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-D9x0U8/src.cxx
+Linking CXX executable cmTC_644c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_644c1.dir/link.txt --verbose=1
+/usr/bin/c++ -Wl,--gdb-index CMakeFiles/cmTC_644c1.dir/src.cxx.o -o cmTC_644c1
+/usr/bin/ld: unrecognized option '--gdb-index'
+/usr/bin/ld: use the --help option for usage information
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_644c1.dir/build.make:99: cmTC_644c1] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-D9x0U8'
+gmake: *** [Makefile:127: cmTC_644c1/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_reduce_relocations failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DMIwFQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b94f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b94f5.dir/build.make CMakeFiles/cmTC_b94f5.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DMIwFQ'
+Building CXX object CMakeFiles/cmTC_b94f5.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_reduce_relocations  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_b94f5.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DMIwFQ/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DMIwFQ/src.cxx:2:4: error: #error Symbolic function binding on this architecture may be broken, disabling it (see QTBUG-36129).
+    2 | #  error Symbolic function binding on this architecture may be broken, disabling it (see QTBUG-36129).
+      |    ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_b94f5.dir/build.make:78: CMakeFiles/cmTC_b94f5.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DMIwFQ'
+gmake: *** [Makefile:127: cmTC_b94f5/fast] Error 2
+
+
+Source file was:
+ #if !(defined(__i386) || defined(__i386__) || defined(__x86_64) || defined(__x86_64__) || defined(__amd64)) || defined(__sun)
+#  error Symbolic function binding on this architecture may be broken, disabling it (see QTBUG-36129).
+#endif
+
+int main(void)
+{
+    /* BEGIN TEST: */
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_alloca_malloc_h failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-HrV8px
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f15f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f15f.dir/build.make CMakeFiles/cmTC_1f15f.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-HrV8px'
+Building CXX object CMakeFiles/cmTC_1f15f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_alloca_malloc_h  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_1f15f.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-HrV8px/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-HrV8px/src.cxx: In function ‘int main()’:
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-HrV8px/src.cxx:6:1: error: ‘alloca’ was not declared in this scope; did you mean ‘valloc’?
+    6 | alloca(1);
+      | ^~~~~~
+      | valloc
+gmake[1]: *** [CMakeFiles/cmTC_1f15f.dir/build.make:78: CMakeFiles/cmTC_1f15f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-HrV8px'
+gmake: *** [Makefile:127: cmTC_1f15f/fast] Error 2
+
+
+Source file was:
+ #include <malloc.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+alloca(1);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_intelcet failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-O9Tlk0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8fbd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8fbd.dir/build.make CMakeFiles/cmTC_b8fbd.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-O9Tlk0'
+Building CXX object CMakeFiles/cmTC_b8fbd.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_intelcet  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_b8fbd.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-O9Tlk0/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-O9Tlk0/src.cxx:5:4: error: #error Intel CET not available
+    5 | #  error Intel CET not available
+      |    ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_b8fbd.dir/build.make:78: CMakeFiles/cmTC_b8fbd.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-O9Tlk0'
+gmake: *** [Makefile:127: cmTC_b8fbd/fast] Error 2
+
+
+Source file was:
+ int main(void)
+{
+    /* BEGIN TEST: */
+#if !defined(__CET__)
+#  error Intel CET not available
+#endif
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_pollts failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-b1xTm9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5b40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5b40.dir/build.make CMakeFiles/cmTC_f5b40.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-b1xTm9'
+Building CXX object CMakeFiles/cmTC_f5b40.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_pollts  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_f5b40.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-b1xTm9/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-b1xTm9/src.cxx: In function ‘int main()’:
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-b1xTm9/src.cxx:11:1: error: ‘pollts’ was not declared in this scope; did you mean ‘pollfd’?
+   11 | pollts(&pfd, 1, &ts, &sig);
+      | ^~~~~~
+      | pollfd
+gmake[1]: *** [CMakeFiles/cmTC_f5b40.dir/build.make:78: CMakeFiles/cmTC_f5b40.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-b1xTm9'
+gmake: *** [Makefile:127: cmTC_f5b40/fast] Error 2
+
+
+Source file was:
+ #include <poll.h>
+#include <signal.h>
+#include <time.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+struct pollfd pfd;
+struct timespec ts;
+sigset_t sig;
+pollts(&pfd, 1, &ts, &sig);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_cpp_winrt failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-SYLPPf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5d78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5d78.dir/build.make CMakeFiles/cmTC_d5d78.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-SYLPPf'
+Building CXX object CMakeFiles/cmTC_d5d78.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_cpp_winrt  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_d5d78.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-SYLPPf/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-SYLPPf/src.cxx:2:13: fatal error: winrt/base.h: No such file or directory
+    2 | #   include <winrt/base.h>
+      |             ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d5d78.dir/build.make:78: CMakeFiles/cmTC_d5d78.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-SYLPPf'
+gmake: *** [Makefile:127: cmTC_d5d78/fast] Error 2
+
+
+Source file was:
+ // Including winrt/base.h causes an error in some configurations (Windows 10 SDK + c++20)
+#   include <winrt/base.h>
+
+int main(void)
+{
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_xlocalescanprint failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31e7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31e7d.dir/build.make CMakeFiles/cmTC_31e7d.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8'
+Building CXX object CMakeFiles/cmTC_31e7d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_xlocalescanprint  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_31e7d.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx:10:10: error: #include expects "FILENAME" or <FILENAME>
+   10 | #include QDSP_P_H
+      |          ^~~~~~~~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx: In function ‘int main()’:
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx:18:1: error: ‘locale_t’ was not declared in this scope
+   18 | locale_t invalidLocale = NULL;
+      | ^~~~~~~~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx:21:17: error: ‘argv’ was not declared in this scope
+   21 | qDoubleSnprintf(argv[0], 1, invalidLocale, "invalid format", a);
+      |                 ^~~~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx:21:29: error: ‘invalidLocale’ was not declared in this scope
+   21 | qDoubleSnprintf(argv[0], 1, invalidLocale, "invalid format", a);
+      |                             ^~~~~~~~~~~~~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx:21:1: error: ‘qDoubleSnprintf’ was not declared in this scope
+   21 | qDoubleSnprintf(argv[0], 1, invalidLocale, "invalid format", a);
+      | ^~~~~~~~~~~~~~~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx:22:62: error: ‘argc’ was not declared in this scope
+   22 | qDoubleSscanf(argv[0], invalidLocale, "invalid format", &a, &argc);
+      |                                                              ^~~~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8/src.cxx:22:1: error: ‘qDoubleSscanf’ was not declared in this scope
+   22 | qDoubleSscanf(argv[0], invalidLocale, "invalid format", &a, &argc);
+      | ^~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_31e7d.dir/build.make:78: CMakeFiles/cmTC_31e7d.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-eU5Uw8'
+gmake: *** [Makefile:127: cmTC_31e7d/fast] Error 2
+
+
+Source file was:
+ #define QT_BEGIN_NAMESPACE
+#define QT_END_NAMESPACE
+
+#ifdef _MSVC_VER
+#define Q_CC_MSVC _MSVC_VER
+#endif
+
+#define QT_NO_DOUBLECONVERSION
+
+#include QDSP_P_H
+
+int main(void)
+{
+    /* BEGIN TEST: */
+#ifdef _MSVC_VER
+_locale_t invalidLocale = NULL;
+#else
+locale_t invalidLocale = NULL;
+#endif
+double a = 3.4;
+qDoubleSnprintf(argv[0], 1, invalidLocale, "invalid format", a);
+qDoubleSscanf(argv[0], invalidLocale, "invalid format", &a, &argc);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_ifr_index failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xBamrj
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5b4d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5b4d.dir/build.make CMakeFiles/cmTC_d5b4d.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xBamrj'
+Building CXX object CMakeFiles/cmTC_d5b4d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ifr_index  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_d5b4d.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xBamrj/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xBamrj/src.cxx: In function ‘int main()’:
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xBamrj/src.cxx:7:5: error: ‘struct ifreq’ has no member named ‘ifr_index’
+    7 | req.ifr_index = 0;
+      |     ^~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_d5b4d.dir/build.make:78: CMakeFiles/cmTC_d5b4d.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xBamrj'
+gmake: *** [Makefile:127: cmTC_d5b4d/fast] Error 2
+
+
+Source file was:
+ #include <net/if.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+struct ifreq req;
+req.ifr_index = 0;
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_res_setservers failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-QwyysZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd049/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd049.dir/build.make CMakeFiles/cmTC_cd049.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-QwyysZ'
+Building CXX object CMakeFiles/cmTC_cd049.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_res_setservers  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_cd049.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-QwyysZ/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-QwyysZ/src.cxx: In function ‘int main()’:
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-QwyysZ/src.cxx:6:30: error: aggregate ‘main()::res_sockaddr_union sa’ has incomplete type and cannot be defined
+    6 |     union res_sockaddr_union sa;
+      |                              ^~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-QwyysZ/src.cxx:8:5: error: ‘res_setservers’ was not declared in this scope; did you mean ‘res_isourserver’?
+    8 |     res_setservers(s, &sa, 1);
+      |     ^~~~~~~~~~~~~~
+      |     res_isourserver
+gmake[1]: *** [CMakeFiles/cmTC_cd049.dir/build.make:78: CMakeFiles/cmTC_cd049.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-QwyysZ'
+gmake: *** [Makefile:127: cmTC_cd049/fast] Error 2
+
+
+Source file was:
+ #include <sys/types.h>
+#include <netinet/in.h>
+#include <resolv.h>
+int main()
+{
+    union res_sockaddr_union sa;
+    res_state s = nullptr;
+    res_setservers(s, &sa, 1);
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_sctp failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-iIteRh
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f25ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f25ce.dir/build.make CMakeFiles/cmTC_f25ce.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-iIteRh'
+Building CXX object CMakeFiles/cmTC_f25ce.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_sctp  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_f25ce.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-iIteRh/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-iIteRh/src.cxx:4:10: fatal error: netinet/sctp.h: No such file or directory
+    4 | #include <netinet/sctp.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f25ce.dir/build.make:78: CMakeFiles/cmTC_f25ce.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-iIteRh'
+gmake: *** [Makefile:127: cmTC_f25ce/fast] Error 2
+
+
+Source file was:
+ #include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/sctp.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+sctp_initmsg sctpInitMsg;
+socklen_t sctpInitMsgSize = sizeof(sctpInitMsg);
+(void) socket(PF_INET, SOCK_STREAM, IPPROTO_SCTP);
+(void) getsockopt(-1, SOL_SCTP, SCTP_INITMSG, &sctpInitMsg, &sctpInitMsgSize);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_networklistmanager failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-MUo7TA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e069/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e069.dir/build.make CMakeFiles/cmTC_7e069.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-MUo7TA'
+Building CXX object CMakeFiles/cmTC_7e069.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_networklistmanager  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_7e069.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-MUo7TA/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-MUo7TA/src.cxx:1:11: fatal error: netlistmgr.h: No such file or directory
+    1 |  #include <netlistmgr.h>
+      |           ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7e069.dir/build.make:78: CMakeFiles/cmTC_7e069.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-MUo7TA'
+gmake: *** [Makefile:127: cmTC_7e069/fast] Error 2
+
+
+Source file was:
+ #include <netlistmgr.h>
+#include <ocidl.h>
+#include <wrl/client.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+using namespace Microsoft::WRL;
+ComPtr<INetworkListManager> networkListManager;
+ComPtr<IConnectionPoint> connectionPoint;
+ComPtr<IConnectionPointContainer> connectionPointContainer;
+networkListManager.As(&connectionPointContainer);
+connectionPointContainer->FindConnectionPoint(IID_INetworkConnectionEvents, &connectionPoint);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_EGL failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wqDtBD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07aa7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07aa7.dir/build.make CMakeFiles/cmTC_07aa7.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wqDtBD'
+Building CXX object CMakeFiles/cmTC_07aa7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_EGL  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_07aa7.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wqDtBD/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wqDtBD/src.cxx:2:10: fatal error: EGL/egl.h: No such file or directory
+    2 | #include <EGL/egl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_07aa7.dir/build.make:78: CMakeFiles/cmTC_07aa7.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wqDtBD'
+gmake: *** [Makefile:127: cmTC_07aa7/fast] Error 2
+
+
+Source file was:
+
+#include <EGL/egl.h>
+
+int main(int, char **) {
+    [[maybe_unused]] EGLint x = 0;
+    EGLDisplay dpy = 0; EGLContext ctx = 0;
+    eglDestroyContext(dpy, ctx);
+}
+
+Performing C++ SOURCE FILE Test HAVE_GLESv2 failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-llANMw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e91fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e91fc.dir/build.make CMakeFiles/cmTC_e91fc.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-llANMw'
+Building CXX object CMakeFiles/cmTC_e91fc.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_GLESv2  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_e91fc.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-llANMw/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-llANMw/src.cxx:6:12: fatal error: GLES2/gl2.h: No such file or directory
+    6 | #  include <GLES2/gl2.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e91fc.dir/build.make:78: CMakeFiles/cmTC_e91fc.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-llANMw'
+gmake: *** [Makefile:127: cmTC_e91fc/fast] Error 2
+
+
+Source file was:
+
+#ifdef __APPLE__
+#  include <OpenGLES/ES2/gl.h>
+#else
+#  define GL_GLEXT_PROTOTYPES
+#  include <GLES2/gl2.h>
+#endif
+
+int main(int, char **) {
+    glUniform1f(1, GLfloat(1.0));
+    glClear(GL_COLOR_BUFFER_BIT);
+}
+
+Performing C++ SOURCE FILE Test HAVE_integrityfb failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VxsJBt
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_102ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_102ff.dir/build.make CMakeFiles/cmTC_102ff.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VxsJBt'
+Building CXX object CMakeFiles/cmTC_102ff.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_integrityfb  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_102ff.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VxsJBt/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VxsJBt/src.cxx:1:11: fatal error: device/fbdriver.h: No such file or directory
+    1 |  #include <device/fbdriver.h>
+      |           ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_102ff.dir/build.make:78: CMakeFiles/cmTC_102ff.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VxsJBt'
+gmake: *** [Makefile:127: cmTC_102ff/fast] Error 2
+
+
+Source file was:
+ #include <device/fbdriver.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+FBDriver *driver = 0;
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_directwrite failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-l3sLuY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7bb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7bb7.dir/build.make CMakeFiles/cmTC_b7bb7.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-l3sLuY'
+Building CXX object CMakeFiles/cmTC_b7bb7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_directwrite  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_b7bb7.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-l3sLuY/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-l3sLuY/src.cxx:1:11: fatal error: dwrite_2.h: No such file or directory
+    1 |  #include <dwrite_2.h>
+      |           ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b7bb7.dir/build.make:78: CMakeFiles/cmTC_b7bb7.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-l3sLuY'
+gmake: *** [Makefile:127: cmTC_b7bb7/fast] Error 2
+
+
+Source file was:
+ #include <dwrite_2.h>
+int main(int, char **)
+{
+    IUnknown *factory = nullptr;
+    DWriteCreateFactory(DWRITE_FACTORY_TYPE_SHARED, __uuidof(IDWriteFactory2),
+                        &factory);
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_directwrite3 failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Ug3HWh
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0e5b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0e5b.dir/build.make CMakeFiles/cmTC_e0e5b.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Ug3HWh'
+Building CXX object CMakeFiles/cmTC_e0e5b.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_directwrite3  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_e0e5b.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Ug3HWh/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Ug3HWh/src.cxx:1:11: fatal error: dwrite_3.h: No such file or directory
+    1 |  #include <dwrite_3.h>
+      |           ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e0e5b.dir/build.make:78: CMakeFiles/cmTC_e0e5b.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Ug3HWh'
+gmake: *** [Makefile:127: cmTC_e0e5b/fast] Error 2
+
+
+Source file was:
+ #include <dwrite_3.h>
+int main(int, char **)
+{
+    IUnknown *factory = nullptr;
+    DWriteCreateFactory(DWRITE_FACTORY_TYPE_SHARED, __uuidof(IDWriteFactory3),
+                        &factory);
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_d2d1 failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-LFp165
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e41ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e41ee.dir/build.make CMakeFiles/cmTC_e41ee.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-LFp165'
+Building CXX object CMakeFiles/cmTC_e41ee.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_d2d1  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_e41ee.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-LFp165/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-LFp165/src.cxx:1:11: fatal error: d2d1.h: No such file or directory
+    1 |  #include <d2d1.h>
+      |           ^~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e41ee.dir/build.make:78: CMakeFiles/cmTC_e41ee.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-LFp165'
+gmake: *** [Makefile:127: cmTC_e41ee/fast] Error 2
+
+
+Source file was:
+ #include <d2d1.h>
+int main(int, char **)
+{
+    void *factory = nullptr;
+    D2D1_FACTORY_OPTIONS options;
+    ZeroMemory(&options, sizeof(D2D1_FACTORY_OPTIONS));
+    D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, GUID{}, &options, &factory);
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_d2d1_1 failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lX4MKd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d280b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d280b.dir/build.make CMakeFiles/cmTC_d280b.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lX4MKd'
+Building CXX object CMakeFiles/cmTC_d280b.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_d2d1_1  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_d280b.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lX4MKd/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lX4MKd/src.cxx:1:11: fatal error: d2d1_1.h: No such file or directory
+    1 |  #include <d2d1_1.h>
+      |           ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d280b.dir/build.make:78: CMakeFiles/cmTC_d280b.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lX4MKd'
+gmake: *** [Makefile:127: cmTC_d280b/fast] Error 2
+
+
+Source file was:
+ #include <d2d1_1.h>
+int main(int, char **)
+{
+    ID2D1Factory1 *d2dFactory;
+    D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &d2dFactory);
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_pointer_32bit failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yYYLXX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7aa7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7aa7b.dir/build.make CMakeFiles/cmTC_7aa7b.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yYYLXX'
+Building CXX object CMakeFiles/cmTC_7aa7b.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_pointer_32bit  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_7aa7b.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yYYLXX/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yYYLXX/src.cxx: In function ‘int main(int, char**)’:
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yYYLXX/src.cxx:8:30: error: static assertion failed: fail
+    8 | static_assert(sizeof(void *) == 4, "fail");
+      |               ~~~~~~~~~~~~~~~^~~~
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yYYLXX/src.cxx:8:30: note: the comparison reduces to ‘(8 == 4)’
+gmake[1]: *** [CMakeFiles/cmTC_7aa7b.dir/build.make:78: CMakeFiles/cmTC_7aa7b.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yYYLXX'
+gmake: *** [Makefile:127: cmTC_7aa7b/fast] Error 2
+
+
+Source file was:
+
+
+
+int main(int argc, char **argv)
+{
+    (void)argc; (void)argv;
+    /* BEGIN TEST: */
+static_assert(sizeof(void *) == 4, "fail");
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_arm_thumb failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-0c2YK3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_496a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_496a5.dir/build.make CMakeFiles/cmTC_496a5.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-0c2YK3'
+Building CXX object CMakeFiles/cmTC_496a5.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_arm_thumb  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_496a5.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-0c2YK3/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-0c2YK3/src.cxx:16:6: error: #error "fail"
+   16 | #    error "fail"
+      |      ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_496a5.dir/build.make:78: CMakeFiles/cmTC_496a5.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-0c2YK3'
+gmake: *** [Makefile:127: cmTC_496a5/fast] Error 2
+
+
+Source file was:
+
+
+
+int main(int argc, char **argv)
+{
+    (void)argc; (void)argv;
+    /* BEGIN TEST: */
+#if defined(thumb2) || defined(__thumb2__)
+#    define THUMB_OK
+#elif (defined(__thumb) || defined(__thumb__)) && __TARGET_ARCH_THUMB-0 == 4
+#    define THUMB_OK
+#elif defined(__ARM_ARCH_ISA_THUMB) && __ARM_ARCH_ISA_THUMB == 2
+// clang 3.5 and later will set this if the core supports the Thumb-2 ISA.
+#    define THUMB_OK
+#else
+#    error "fail"
+#endif
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_ntddmodm failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-V35QDx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1cbd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1cbd4.dir/build.make CMakeFiles/cmTC_1cbd4.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-V35QDx'
+Building CXX object CMakeFiles/cmTC_1cbd4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ntddmodm  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_1cbd4.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-V35QDx/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-V35QDx/src.cxx:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1cbd4.dir/build.make:78: CMakeFiles/cmTC_1cbd4.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-V35QDx'
+gmake: *** [Makefile:127: cmTC_1cbd4/fast] Error 2
+
+
+Source file was:
+
+#include <windows.h>
+#include <ntddmodm.h>
+
+int main(int argc, char **argv)
+{
+    (void)argc; (void)argv;
+    /* BEGIN TEST: */
+GUID guid = GUID_DEVINTERFACE_MODEM;
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_khr failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-4LMwcJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28f58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28f58.dir/build.make CMakeFiles/cmTC_28f58.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-4LMwcJ'
+Building CXX object CMakeFiles/cmTC_28f58.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_khr  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_28f58.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-4LMwcJ/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-4LMwcJ/src.cxx:2:10: fatal error: KHR/khrplatform.h: No such file or directory
+    2 | #include <KHR/khrplatform.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_28f58.dir/build.make:78: CMakeFiles/cmTC_28f58.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-4LMwcJ'
+gmake: *** [Makefile:127: cmTC_28f58/fast] Error 2
+
+
+Source file was:
+
+#include <KHR/khrplatform.h>
+int main(void) {
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_uacpp failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uxeSJm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2afb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2afb.dir/build.make CMakeFiles/cmTC_e2afb.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uxeSJm'
+Building CXX object CMakeFiles/cmTC_e2afb.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_uacpp  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_e2afb.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uxeSJm/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uxeSJm/src.cxx:3:10: fatal error: uaplatformlayer.h: No such file or directory
+    3 | #include <uaplatformlayer.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e2afb.dir/build.make:78: CMakeFiles/cmTC_e2afb.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uxeSJm'
+gmake: *** [Makefile:127: cmTC_e2afb/fast] Error 2
+
+
+Source file was:
+ #include <stdio.h>
+
+#include <uaplatformlayer.h>
+#include <uastring.h>
+#include <uasession.h>
+
+using namespace UaClientSdk;
+
+int main(int /*argc*/, char ** /*argv*/)
+{
+
+    UaPlatformLayer::init();
+    UaSession *session = new UaSession;
+
+    UaPlatformLayer::cleanup();
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_vulkan_server_buffer failed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-zJDs4Y
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f13f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f13f.dir/build.make CMakeFiles/cmTC_5f13f.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-zJDs4Y'
+Building CXX object CMakeFiles/cmTC_5f13f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_vulkan_server_buffer  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_5f13f.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-zJDs4Y/src.cxx
+/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-zJDs4Y/src.cxx:2:10: fatal error: vulkan/vulkan.h: No such file or directory
+    2 | #include <vulkan/vulkan.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_5f13f.dir/build.make:78: CMakeFiles/cmTC_5f13f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-zJDs4Y'
+gmake: *** [Makefile:127: cmTC_5f13f/fast] Error 2
+
+
+Source file was:
+ #define VK_USE_PLATFORM_WAYLAND_KHR 1
+#include <vulkan/vulkan.h>
+
+int main(int argc, char **argv)
+{
+    (void)argc; (void)argv;
+    /* BEGIN TEST: */
+VkExportMemoryAllocateInfoKHR exportAllocInfo = {};
+exportAllocInfo.sType = VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR;
+exportAllocInfo.handleTypes = VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT_KHR;
+return 0;
+    /* END TEST: */
+    return 0;
+}

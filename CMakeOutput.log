@@ -1,0 +1,1917 @@
+The system is: Linux - 6.8.0-1008-aws - aarch64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++
+Build flags:
+Id flags:
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/ghjk/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc
+Build flags:
+Id flags:
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/ghjk/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-RYmGjl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e6e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e6e9.dir/build.make CMakeFiles/cmTC_4e6e9.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-RYmGjl'
+Building CXX object CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14)
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e6e9.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4e6e9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/ccQar4jY.s
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/aarch64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 76d6f14273b9515783c50374b109b352
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e6e9.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQar4jY.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_4e6e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e6e9.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4e6e9
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14)
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e6e9' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4e6e9.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd192Xg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_4e6e9 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e6e9' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4e6e9.'
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-RYmGjl'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/aarch64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/aarch64-linux-gnu/c++/12] ==> [/usr/include/aarch64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/12/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/aarch64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/aarch64-linux-gnu/12/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-RYmGjl]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e6e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e6e9.dir/build.make CMakeFiles/cmTC_4e6e9.dir/build]
+  ignore line: [gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-RYmGjl']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e6e9.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4e6e9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/ccQar4jY.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 76d6f14273b9515783c50374b109b352]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e6e9.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQar4jY.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_4e6e9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e6e9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4e6e9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e6e9' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4e6e9.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd192Xg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_4e6e9 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd192Xg.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4e6e9] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_4e6e9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TJgaQt
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46671/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46671.dir/build.make CMakeFiles/cmTC_46671.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TJgaQt'
+Building C object CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14)
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46671.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_46671.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/cctNbK0H.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f1bacec099212325d0da3c77e1f38897
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46671.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o /tmp/cctNbK0H.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_46671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46671.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o -o cmTC_46671
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14)
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46671' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_46671.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d4Rua.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_46671 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46671' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_46671.'
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TJgaQt'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/12/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/12/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TJgaQt]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46671/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46671.dir/build.make CMakeFiles/cmTC_46671.dir/build]
+  ignore line: [gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TJgaQt']
+  ignore line: [Building C object CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46671.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_46671.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/cctNbK0H.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f1bacec099212325d0da3c77e1f38897]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46671.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o /tmp/cctNbK0H.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_46671]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46671.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o -o cmTC_46671 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46671' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_46671.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d4Rua.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_46671 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2d4Rua.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_46671] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_46671.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CMAKE_C_LINK_PIE_SUPPORTED succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oJvfza
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bbd54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bbd54.dir/build.make CMakeFiles/cmTC_bbd54.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oJvfza'
+Building C object CMakeFiles/cmTC_bbd54.dir/src.c.o
+/usr/bin/cc -DCMAKE_C_LINK_PIE_SUPPORTED  -fPIE -o CMakeFiles/cmTC_bbd54.dir/src.c.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oJvfza/src.c
+Linking C executable cmTC_bbd54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbd54.dir/link.txt --verbose=1
+/usr/bin/cc -fPIE -pie CMakeFiles/cmTC_bbd54.dir/src.c.o -o cmTC_bbd54
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oJvfza'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test CMAKE_C_LINK_NO_PIE_SUPPORTED succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-aGGDCm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03fc1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03fc1.dir/build.make CMakeFiles/cmTC_03fc1.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-aGGDCm'
+Building C object CMakeFiles/cmTC_03fc1.dir/src.c.o
+/usr/bin/cc -DCMAKE_C_LINK_NO_PIE_SUPPORTED  -fPIE -o CMakeFiles/cmTC_03fc1.dir/src.c.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-aGGDCm/src.c
+Linking C executable cmTC_03fc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03fc1.dir/link.txt --verbose=1
+/usr/bin/cc -no-pie CMakeFiles/cmTC_03fc1.dir/src.c.o -o cmTC_03fc1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-aGGDCm'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CMAKE_CXX_LINK_PIE_SUPPORTED succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-hGGSMB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23702/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23702.dir/build.make CMakeFiles/cmTC_23702.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-hGGSMB'
+Building CXX object CMakeFiles/cmTC_23702.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_CXX_LINK_PIE_SUPPORTED  -fPIE -o CMakeFiles/cmTC_23702.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-hGGSMB/src.cxx
+Linking CXX executable cmTC_23702
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23702.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIE -pie CMakeFiles/cmTC_23702.dir/src.cxx.o -o cmTC_23702
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-hGGSMB'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CMAKE_CXX_LINK_NO_PIE_SUPPORTED succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xXGsQT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8a68c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a68c.dir/build.make CMakeFiles/cmTC_8a68c.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xXGsQT'
+Building CXX object CMakeFiles/cmTC_8a68c.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_CXX_LINK_NO_PIE_SUPPORTED  -fPIE -o CMakeFiles/cmTC_8a68c.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xXGsQT/src.cxx
+Linking CXX executable cmTC_8a68c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a68c.dir/link.txt --verbose=1
+/usr/bin/c++ -no-pie CMakeFiles/cmTC_8a68c.dir/src.cxx.o -o cmTC_8a68c
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-xXGsQT'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vKTT0G
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3012/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3012.dir/build.make CMakeFiles/cmTC_a3012.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vKTT0G'
+Building C object CMakeFiles/cmTC_a3012.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -std=gnu11 -o CMakeFiles/cmTC_a3012.dir/src.c.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vKTT0G/src.c
+Linking C executable cmTC_a3012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3012.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a3012.dir/src.c.o -o cmTC_a3012
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vKTT0G'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test TEST_use_bfd_linker succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-261DCU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02c15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02c15.dir/build.make CMakeFiles/cmTC_02c15.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-261DCU'
+Building CXX object CMakeFiles/cmTC_02c15.dir/src.cxx.o
+/usr/bin/c++ -DTEST_use_bfd_linker  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_02c15.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-261DCU/src.cxx
+Linking CXX executable cmTC_02c15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02c15.dir/link.txt --verbose=1
+/usr/bin/c++ -fuse-ld=bfd CMakeFiles/cmTC_02c15.dir/src.cxx.o -o cmTC_02c15
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-261DCU'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test TEST_use_gold_linker succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-adkW70
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0078/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0078.dir/build.make CMakeFiles/cmTC_f0078.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-adkW70'
+Building CXX object CMakeFiles/cmTC_f0078.dir/src.cxx.o
+/usr/bin/c++ -DTEST_use_gold_linker  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_f0078.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-adkW70/src.cxx
+Linking CXX executable cmTC_f0078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0078.dir/link.txt --verbose=1
+/usr/bin/c++ -fuse-ld=gold CMakeFiles/cmTC_f0078.dir/src.cxx.o -o cmTC_f0078
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-adkW70'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test TEST_use_mold_linker succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-X83M48
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3c30/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3c30.dir/build.make CMakeFiles/cmTC_b3c30.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-X83M48'
+Building CXX object CMakeFiles/cmTC_b3c30.dir/src.cxx.o
+/usr/bin/c++ -DTEST_use_mold_linker  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_b3c30.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-X83M48/src.cxx
+Linking CXX executable cmTC_b3c30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c30.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_b3c30.dir/src.cxx.o -o cmTC_b3c30
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-X83M48'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_cxx20 succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-XB2p6j
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af8f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af8f0.dir/build.make CMakeFiles/cmTC_af8f0.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-XB2p6j'
+Building CXX object CMakeFiles/cmTC_af8f0.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_cxx20  -fPIE -std=gnu++20 -o CMakeFiles/cmTC_af8f0.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-XB2p6j/src.cxx
+Linking CXX executable cmTC_af8f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af8f0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_af8f0.dir/src.cxx.o -o cmTC_af8f0
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-XB2p6j'
+
+
+Source file was:
+ #if __cplusplus > 201703L
+// Compiler claims to support C++20, trust it
+#else
+#  error __cplusplus must be > 201703L (the value for C++17)
+#endif
+
+int main(void)
+{
+    /* BEGIN TEST: */
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_cxx2b succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vH4nJz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cce6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cce6c.dir/build.make CMakeFiles/cmTC_cce6c.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vH4nJz'
+Building CXX object CMakeFiles/cmTC_cce6c.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_cxx2b  -fPIE -std=gnu++23 -o CMakeFiles/cmTC_cce6c.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vH4nJz/src.cxx
+Linking CXX executable cmTC_cce6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce6c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_cce6c.dir/src.cxx.o -o cmTC_cce6c
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vH4nJz'
+
+
+Source file was:
+ #if __cplusplus > 202002L
+// Compiler claims to support C++2B, trust it
+#else
+#  error __cplusplus must be > 202002L (the value for C++20)
+#endif
+
+int main(void)
+{
+    /* BEGIN TEST: */
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test TEST_optimize_debug succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TZx0jO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00f82/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00f82.dir/build.make CMakeFiles/cmTC_00f82.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TZx0jO'
+Building CXX object CMakeFiles/cmTC_00f82.dir/src.cxx.o
+/usr/bin/c++ -DTEST_optimize_debug  -fPIE   -Og -std=gnu++17 -o CMakeFiles/cmTC_00f82.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TZx0jO/src.cxx
+Linking CXX executable cmTC_00f82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00f82.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_00f82.dir/src.cxx.o -o cmTC_00f82
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TZx0jO'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test TEST_enable_new_dtags succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uHNQhe
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af6c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af6c5.dir/build.make CMakeFiles/cmTC_af6c5.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uHNQhe'
+Building CXX object CMakeFiles/cmTC_af6c5.dir/src.cxx.o
+/usr/bin/c++ -DTEST_enable_new_dtags  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_af6c5.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uHNQhe/src.cxx
+Linking CXX executable cmTC_af6c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af6c5.dir/link.txt --verbose=1
+/usr/bin/c++ -Wl,--enable-new-dtags CMakeFiles/cmTC_af6c5.dir/src.cxx.o -o cmTC_af6c5
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uHNQhe'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_signaling_nan succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-jWEfFc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2368/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2368.dir/build.make CMakeFiles/cmTC_c2368.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-jWEfFc'
+Building CXX object CMakeFiles/cmTC_c2368.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_signaling_nan  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_c2368.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-jWEfFc/src.cxx
+Linking CXX executable cmTC_c2368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2368.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c2368.dir/src.cxx.o -o cmTC_c2368
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-jWEfFc'
+
+
+Source file was:
+ #if defined(__ghs)  && (__GHS_VERSION_NUMBER <= 202014)
+#  error Signal NaNs are not supported by GHS compiler, but has_signaling_NaN returns TRUE. Will be fixed in future compiler releases.
+#endif
+
+#include <limits>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+using B = std::numeric_limits<double>;
+static_assert(B::has_signaling_NaN, "System lacks signaling NaN");
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_posix_fallocate succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lVdpLq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7acf4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7acf4.dir/build.make CMakeFiles/cmTC_7acf4.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lVdpLq'
+Building CXX object CMakeFiles/cmTC_7acf4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_posix_fallocate  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_7acf4.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lVdpLq/src.cxx
+Linking CXX executable cmTC_7acf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7acf4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_7acf4.dir/src.cxx.o -o cmTC_7acf4
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-lVdpLq'
+
+
+Source file was:
+ #include <fcntl.h>
+#include <unistd.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+(void) posix_fallocate(0, 0, 0);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_alloca_stdlib_h succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9SyErx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7816a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7816a.dir/build.make CMakeFiles/cmTC_7816a.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9SyErx'
+Building CXX object CMakeFiles/cmTC_7816a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_alloca_stdlib_h  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_7816a.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9SyErx/src.cxx
+Linking CXX executable cmTC_7816a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7816a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_7816a.dir/src.cxx.o -o cmTC_7816a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9SyErx'
+
+
+Source file was:
+ #include <stdlib.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+alloca(1);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_alloca_h succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-AllQ0E
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5872e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5872e.dir/build.make CMakeFiles/cmTC_5872e.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-AllQ0E'
+Building CXX object CMakeFiles/cmTC_5872e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_alloca_h  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_5872e.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-AllQ0E/src.cxx
+Linking CXX executable cmTC_5872e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5872e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5872e.dir/src.cxx.o -o cmTC_5872e
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-AllQ0E'
+
+
+Source file was:
+ #include <alloca.h>
+#ifdef __QNXNTO__
+// extra include needed in QNX7 to define NULL for the alloca() macro
+#  include <stddef.h>
+#endif
+
+int main(void)
+{
+    /* BEGIN TEST: */
+alloca(1);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_stack_protector succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oAQmqd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_446d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_446d1.dir/build.make CMakeFiles/cmTC_446d1.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oAQmqd'
+Building CXX object CMakeFiles/cmTC_446d1.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_stack_protector  -fstack-protector-strong -fPIE -std=gnu++17 -o CMakeFiles/cmTC_446d1.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oAQmqd/src.cxx
+Linking CXX executable cmTC_446d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_446d1.dir/link.txt --verbose=1
+/usr/bin/c++  -fstack-protector-strong CMakeFiles/cmTC_446d1.dir/src.cxx.o -o cmTC_446d1
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-oAQmqd'
+
+
+Source file was:
+ #ifdef __QNXNTO__
+#  include <sys/neutrino.h>
+#  if _NTO_VERSION < 700
+#    error stack-protector not used (by default) before QNX 7.0.0.
+#  endif
+#endif
+
+int main(void)
+{
+    /* BEGIN TEST: */
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_LD_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BxhS4P
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2486/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2486.dir/build.make CMakeFiles/cmTC_b2486.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BxhS4P'
+Building CXX object CMakeFiles/cmTC_b2486.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_LD_VERSION_SCRIPT  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_b2486.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BxhS4P/src.cxx
+Linking CXX executable cmTC_b2486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2486.dir/link.txt --verbose=1
+/usr/bin/c++ -Wl,--version-script=/ghjk/build/qtbase/version_flag.map CMakeFiles/cmTC_b2486.dir/src.cxx.o -o cmTC_b2486
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BxhS4P'
+
+
+Source file was:
+            int sym1;
+            int sym2;
+            int main(void) { return 0; }
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-isZZFD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2eed8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2eed8.dir/build.make CMakeFiles/cmTC_2eed8.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-isZZFD'
+Building C object CMakeFiles/cmTC_2eed8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -std=gnu11 -o CMakeFiles/cmTC_2eed8.dir/CheckSymbolExists.c.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-isZZFD/CheckSymbolExists.c
+Linking C executable cmTC_2eed8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eed8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2eed8.dir/CheckSymbolExists.c.o -o cmTC_2eed8
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-isZZFD'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-y9MtKl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b9d9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b9d9a.dir/build.make CMakeFiles/cmTC_b9d9a.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-y9MtKl'
+Building CXX object CMakeFiles/cmTC_b9d9a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_STDATOMIC  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_b9d9a.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-y9MtKl/src.cxx
+Linking CXX executable cmTC_b9d9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9d9a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_b9d9a.dir/src.cxx.o -o cmTC_b9d9a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-y9MtKl'
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+int main(int, char **)
+{
+    volatile std::atomic<char>    size_1;
+    volatile std::atomic<short>   size_2;
+    volatile std::atomic<int>     size_4;
+    volatile std::atomic<int64_t> size_8;
+
+    ++size_1;
+    ++size_2;
+    ++size_4;
+    ++size_8;
+
+    (void)size_1.load(std::memory_order_relaxed);
+    (void)size_2.load(std::memory_order_relaxed);
+    (void)size_4.load(std::memory_order_relaxed);
+    (void)size_8.load(std::memory_order_relaxed);
+
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_GETTIME succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wwJTCP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd54d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd54d.dir/build.make CMakeFiles/cmTC_dd54d.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wwJTCP'
+Building CXX object CMakeFiles/cmTC_dd54d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_GETTIME  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_dd54d.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wwJTCP/src.cxx
+Linking CXX executable cmTC_dd54d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd54d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_dd54d.dir/src.cxx.o -o cmTC_dd54d  /usr/lib/aarch64-linux-gnu/librt.a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-wwJTCP'
+
+
+Source file was:
+
+#include <time.h>
+#include <unistd.h>
+
+int main(int, char **) {
+    struct timespec ts;
+    clock_gettime(CLOCK_REALTIME, &ts);
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_SHM_OPEN_SHM_UNLINK succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JVjS9i
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5852e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5852e.dir/build.make CMakeFiles/cmTC_5852e.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JVjS9i'
+Building CXX object CMakeFiles/cmTC_5852e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_SHM_OPEN_SHM_UNLINK  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_5852e.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JVjS9i/src.cxx
+Linking CXX executable cmTC_5852e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5852e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5852e.dir/src.cxx.o -o cmTC_5852e  /usr/lib/aarch64-linux-gnu/librt.a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JVjS9i'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+
+int main(int, char **) {
+    shm_open("test", O_RDWR | O_CREAT | O_EXCL, 0666);
+    shm_unlink("test");
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_atomicfptr succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-K8ecrG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d71ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d71ae.dir/build.make CMakeFiles/cmTC_d71ae.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-K8ecrG'
+Building CXX object CMakeFiles/cmTC_d71ae.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_atomicfptr  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_d71ae.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-K8ecrG/src.cxx
+Linking CXX executable cmTC_d71ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d71ae.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_d71ae.dir/src.cxx.o -o cmTC_d71ae
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-K8ecrG'
+
+
+Source file was:
+ #include <atomic>
+typedef void (*fptr)(int);
+typedef std::atomic<fptr> atomicfptr;
+void testfunction(int) { }
+void test(volatile atomicfptr &a)
+{
+    fptr v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, &testfunction,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(&testfunction);
+    }
+    a.store(&testfunction, std::memory_order_release);
+}
+
+int main(void)
+{
+    /* BEGIN TEST: */
+atomicfptr fptr(testfunction);
+test(fptr);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_clock_monotonic succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G9qUy2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_509c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_509c9.dir/build.make CMakeFiles/cmTC_509c9.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G9qUy2'
+Building CXX object CMakeFiles/cmTC_509c9.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_clock_monotonic  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_509c9.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G9qUy2/src.cxx
+Linking CXX executable cmTC_509c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_509c9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_509c9.dir/src.cxx.o -o cmTC_509c9  /usr/lib/aarch64-linux-gnu/librt.a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G9qUy2'
+
+
+Source file was:
+ #include <unistd.h>
+#include <time.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+#if defined(_POSIX_MONOTONIC_CLOCK) && (_POSIX_MONOTONIC_CLOCK-0 >= 0)
+timespec ts;
+clock_gettime(CLOCK_MONOTONIC, &ts);
+#else
+#  error Feature _POSIX_MONOTONIC_CLOCK not available
+#endif
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_close_range succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-gjQpI8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_491c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_491c3.dir/build.make CMakeFiles/cmTC_491c3.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-gjQpI8'
+Building CXX object CMakeFiles/cmTC_491c3.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_close_range  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_491c3.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-gjQpI8/src.cxx
+Linking CXX executable cmTC_491c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_491c3.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_491c3.dir/src.cxx.o -o cmTC_491c3
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-gjQpI8'
+
+
+Source file was:
+ #include <unistd.h>
+
+int main()
+{
+    return close_range(3, 1024, 0) != 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_cloexec succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-5sF6f2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ef23/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ef23.dir/build.make CMakeFiles/cmTC_9ef23.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-5sF6f2'
+Building CXX object CMakeFiles/cmTC_9ef23.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_cloexec  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_9ef23.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-5sF6f2/src.cxx
+Linking CXX executable cmTC_9ef23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ef23.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_9ef23.dir/src.cxx.o -o cmTC_9ef23
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-5sF6f2'
+
+
+Source file was:
+ #define _GNU_SOURCE 1
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+int pipes[2];
+(void) pipe2(pipes, O_CLOEXEC | O_NONBLOCK);
+(void) fcntl(0, F_DUPFD_CLOEXEC, 0);
+(void) dup3(0, 3, O_CLOEXEC);
+#if defined(__NetBSD__)
+(void) paccept(0, 0, 0, NULL, SOCK_CLOEXEC | SOCK_NONBLOCK);
+#else
+(void) accept4(0, 0, 0, SOCK_CLOEXEC | SOCK_NONBLOCK);
+#endif
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_cxx11_future succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-PNQefL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b27f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b27f0.dir/build.make CMakeFiles/cmTC_b27f0.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-PNQefL'
+Building CXX object CMakeFiles/cmTC_b27f0.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_cxx11_future  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_b27f0.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-PNQefL/src.cxx
+Linking CXX executable cmTC_b27f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b27f0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_b27f0.dir/src.cxx.o -o cmTC_b27f0  -lpthread
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-PNQefL'
+
+
+Source file was:
+ #include <future>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+std::future<int> f = std::async([]() { return 42; });
+(void)f.get();
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_cxx11_random succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Grgpqa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_51c73/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51c73.dir/build.make CMakeFiles/cmTC_51c73.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Grgpqa'
+Building CXX object CMakeFiles/cmTC_51c73.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_cxx11_random  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_51c73.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Grgpqa/src.cxx
+Linking CXX executable cmTC_51c73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51c73.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_51c73.dir/src.cxx.o -o cmTC_51c73
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Grgpqa'
+
+
+Source file was:
+ #include <random>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+std::mt19937 mt(0);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_cxx17_filesystem succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9VDOZR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04896/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04896.dir/build.make CMakeFiles/cmTC_04896.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9VDOZR'
+Building CXX object CMakeFiles/cmTC_04896.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_cxx17_filesystem  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_04896.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9VDOZR/src.cxx
+Linking CXX executable cmTC_04896
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04896.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_04896.dir/src.cxx.o -o cmTC_04896
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9VDOZR'
+
+
+Source file was:
+ #include <filesystem>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+std::filesystem::copy(
+    std::filesystem::path("./file"),
+    std::filesystem::path("./other"));
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_dladdr succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BjpU9K
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_755ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_755ad.dir/build.make CMakeFiles/cmTC_755ad.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BjpU9K'
+Building CXX object CMakeFiles/cmTC_755ad.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_dladdr  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_755ad.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BjpU9K/src.cxx
+Linking CXX executable cmTC_755ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_755ad.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_755ad.dir/src.cxx.o -o cmTC_755ad  -ldl
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BjpU9K'
+
+
+Source file was:
+ #define _GNU_SOURCE 1
+#include <dlfcn.h>
+int i = 0;
+int main(void)
+{
+    Dl_info info;
+    dladdr(&i, &info);
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_eventfd succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TkTdl5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5531/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5531.dir/build.make CMakeFiles/cmTC_d5531.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TkTdl5'
+Building CXX object CMakeFiles/cmTC_d5531.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_eventfd  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_d5531.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TkTdl5/src.cxx
+Linking CXX executable cmTC_d5531
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5531.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_d5531.dir/src.cxx.o -o cmTC_d5531
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-TkTdl5'
+
+
+Source file was:
+ #include <sys/eventfd.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+eventfd_t value;
+int fd = eventfd(0, EFD_CLOEXEC);
+eventfd_read(fd, &value);
+eventfd_write(fd, value);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_futimens succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-3DcwjY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4736d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4736d.dir/build.make CMakeFiles/cmTC_4736d.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-3DcwjY'
+Building CXX object CMakeFiles/cmTC_4736d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_futimens  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_4736d.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-3DcwjY/src.cxx
+Linking CXX executable cmTC_4736d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4736d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_4736d.dir/src.cxx.o -o cmTC_4736d
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-3DcwjY'
+
+
+Source file was:
+ #include <sys/stat.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+futimens(-1, 0);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_getauxval succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-rkg07E
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_db2ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db2ef.dir/build.make CMakeFiles/cmTC_db2ef.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-rkg07E'
+Building CXX object CMakeFiles/cmTC_db2ef.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_getauxval  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_db2ef.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-rkg07E/src.cxx
+Linking CXX executable cmTC_db2ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db2ef.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_db2ef.dir/src.cxx.o -o cmTC_db2ef
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-rkg07E'
+
+
+Source file was:
+ #include <sys/auxv.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+(void) getauxval(AT_NULL);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_getentropy succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DLs7dG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8aba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f8aba.dir/build.make CMakeFiles/cmTC_f8aba.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DLs7dG'
+Building CXX object CMakeFiles/cmTC_f8aba.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_getentropy  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_f8aba.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DLs7dG/src.cxx
+Linking CXX executable cmTC_f8aba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8aba.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f8aba.dir/src.cxx.o -o cmTC_f8aba
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-DLs7dG'
+
+
+Source file was:
+ #include <unistd.h>
+#if __has_include(<sys/random.h>)
+#  include <sys/random.h>
+#endif
+
+int main(void)
+{
+    /* BEGIN TEST: */
+char buf[32];
+(void) getentropy(buf, sizeof(buf));
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_glibc succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ksSMSp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a3e0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a3e0.dir/build.make CMakeFiles/cmTC_7a3e0.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ksSMSp'
+Building CXX object CMakeFiles/cmTC_7a3e0.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_glibc  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_7a3e0.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ksSMSp/src.cxx
+Linking CXX executable cmTC_7a3e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a3e0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_7a3e0.dir/src.cxx.o -o cmTC_7a3e0
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ksSMSp'
+
+
+Source file was:
+ #include <stdlib.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+return __GLIBC__;
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_inotify succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uDYJ2D
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ddc38/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddc38.dir/build.make CMakeFiles/cmTC_ddc38.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uDYJ2D'
+Building CXX object CMakeFiles/cmTC_ddc38.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_inotify  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_ddc38.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uDYJ2D/src.cxx
+Linking CXX executable cmTC_ddc38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc38.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_ddc38.dir/src.cxx.o -o cmTC_ddc38
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-uDYJ2D'
+
+
+Source file was:
+ #include <sys/inotify.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+inotify_init();
+inotify_add_watch(0, "foobar", IN_ACCESS);
+inotify_rm_watch(0, 1);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_sysv_shm succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vwDbMg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fd5a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fd5a.dir/build.make CMakeFiles/cmTC_5fd5a.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vwDbMg'
+Building CXX object CMakeFiles/cmTC_5fd5a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_sysv_shm  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_5fd5a.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vwDbMg/src.cxx
+Linking CXX executable cmTC_5fd5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fd5a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5fd5a.dir/src.cxx.o -o cmTC_5fd5a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-vwDbMg'
+
+
+Source file was:
+ #include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <fcntl.h>
+
+int main(void)
+{
+    key_t unix_key = ftok("test", 'Q');
+    shmget(unix_key, 0, 0666 | IPC_CREAT | IPC_EXCL);
+    shmctl(0, 0, (struct shmid_ds *)(0));
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_sysv_sem succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-bLRCHL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_93149/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93149.dir/build.make CMakeFiles/cmTC_93149.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-bLRCHL'
+Building CXX object CMakeFiles/cmTC_93149.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_sysv_sem  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_93149.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-bLRCHL/src.cxx
+Linking CXX executable cmTC_93149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93149.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_93149.dir/src.cxx.o -o cmTC_93149
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-bLRCHL'
+
+
+Source file was:
+ #include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/sem.h>
+#include <fcntl.h>
+
+int main(void)
+{
+    key_t unix_key = ftok("test", 'Q');
+    semctl(semget(unix_key, 1, 0666 | IPC_CREAT | IPC_EXCL), 0, IPC_RMID, 0);
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_posix_shm succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-okRSrZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_292e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_292e4.dir/build.make CMakeFiles/cmTC_292e4.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-okRSrZ'
+Building CXX object CMakeFiles/cmTC_292e4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_posix_shm  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_292e4.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-okRSrZ/src.cxx
+Linking CXX executable cmTC_292e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_292e4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_292e4.dir/src.cxx.o -o cmTC_292e4  -lpthread /usr/lib/aarch64-linux-gnu/librt.a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-okRSrZ'
+
+
+Source file was:
+ #include <sys/types.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+
+int main(void)
+{
+    shm_open("test", O_RDWR | O_CREAT | O_EXCL, 0666);
+    shm_unlink("test");
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_posix_sem succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9fLcuv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6db2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6db2f.dir/build.make CMakeFiles/cmTC_6db2f.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9fLcuv'
+Building CXX object CMakeFiles/cmTC_6db2f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_posix_sem  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_6db2f.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9fLcuv/src.cxx
+Linking CXX executable cmTC_6db2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6db2f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_6db2f.dir/src.cxx.o -o cmTC_6db2f  -lpthread /usr/lib/aarch64-linux-gnu/librt.a
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9fLcuv'
+
+
+Source file was:
+ #include <sys/types.h>
+#include <semaphore.h>
+#include <fcntl.h>
+
+int main(void)
+{
+    sem_close(sem_open("test", O_CREAT | O_EXCL, 0666, 0));
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_linkat succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-6Ow3oV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4127/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4127.dir/build.make CMakeFiles/cmTC_c4127.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-6Ow3oV'
+Building CXX object CMakeFiles/cmTC_c4127.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_linkat  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_c4127.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-6Ow3oV/src.cxx
+Linking CXX executable cmTC_c4127
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4127.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c4127.dir/src.cxx.o -o cmTC_c4127
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-6Ow3oV'
+
+
+Source file was:
+ #define _ATFILE_SOURCE 1
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+linkat(AT_FDCWD, "foo", AT_FDCWD, "bar", AT_SYMLINK_FOLLOW);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_ppoll succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-kvOFla
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56528/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56528.dir/build.make CMakeFiles/cmTC_56528.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-kvOFla'
+Building CXX object CMakeFiles/cmTC_56528.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ppoll  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_56528.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-kvOFla/src.cxx
+Linking CXX executable cmTC_56528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56528.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_56528.dir/src.cxx.o -o cmTC_56528
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-kvOFla'
+
+
+Source file was:
+ #include <signal.h>
+#include <poll.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+struct pollfd pfd;
+struct timespec ts;
+sigset_t sig;
+ppoll(&pfd, 1, &ts, &sig);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_poll succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Bs8rHq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2f07/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2f07.dir/build.make CMakeFiles/cmTC_c2f07.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Bs8rHq'
+Building CXX object CMakeFiles/cmTC_c2f07.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_poll  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_c2f07.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Bs8rHq/src.cxx
+Linking CXX executable cmTC_c2f07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2f07.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c2f07.dir/src.cxx.o -o cmTC_c2f07
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Bs8rHq'
+
+
+Source file was:
+ #include <poll.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+struct pollfd pfd;
+poll(&pfd, 1, 0);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_renameat2 succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yMOoDY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e918d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e918d.dir/build.make CMakeFiles/cmTC_e918d.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yMOoDY'
+Building CXX object CMakeFiles/cmTC_e918d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_renameat2  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_e918d.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yMOoDY/src.cxx
+Linking CXX executable cmTC_e918d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e918d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_e918d.dir/src.cxx.o -o cmTC_e918d
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-yMOoDY'
+
+
+Source file was:
+ #define _ATFILE_SOURCE 1
+#include <fcntl.h>
+#include <stdio.h>
+
+int main(int, char **argv)
+{
+    /* BEGIN TEST: */
+renameat2(AT_FDCWD, argv[1], AT_FDCWD, argv[2], RENAME_NOREPLACE | RENAME_WHITEOUT);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_statx succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ooYGs1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81101/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81101.dir/build.make CMakeFiles/cmTC_81101.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ooYGs1'
+Building CXX object CMakeFiles/cmTC_81101.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_statx  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_81101.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ooYGs1/src.cxx
+Linking CXX executable cmTC_81101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81101.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_81101.dir/src.cxx.o -o cmTC_81101
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-ooYGs1'
+
+
+Source file was:
+ #define _ATFILE_SOURCE 1
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+struct statx statxbuf;
+unsigned int mask = STATX_BASIC_STATS;
+return statx(AT_FDCWD, "", AT_STATX_SYNC_AS_STAT, mask, &statxbuf);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_syslog succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BKUMvV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fe19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fe19.dir/build.make CMakeFiles/cmTC_5fe19.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BKUMvV'
+Building CXX object CMakeFiles/cmTC_5fe19.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_syslog  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_5fe19.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BKUMvV/src.cxx
+Linking CXX executable cmTC_5fe19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe19.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5fe19.dir/src.cxx.o -o cmTC_5fe19
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-BKUMvV'
+
+
+Source file was:
+ #include <syslog.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+openlog("qt", 0, LOG_USER);
+syslog(LOG_INFO, "configure");
+closelog();
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_LIBRESOLV_FUNCTIONS succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VrruFu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65c68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65c68.dir/build.make CMakeFiles/cmTC_65c68.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VrruFu'
+Building CXX object CMakeFiles/cmTC_65c68.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_LIBRESOLV_FUNCTIONS  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_65c68.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VrruFu/src.cxx
+Linking CXX executable cmTC_65c68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65c68.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_65c68.dir/src.cxx.o -o cmTC_65c68  /usr/lib/aarch64-linux-gnu/libresolv.so
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-VrruFu'
+
+
+Source file was:
+
+#include <netinet/in.h>
+#include <resolv.h>
+
+int main(int, char **argv)
+{
+    res_state statep = 0;
+    int n = res_nmkquery(statep, 0, argv[1], 0, 0, NULL, 0, NULL, NULL, 0);
+    n = res_nsend(statep, NULL, 0, NULL, 0);
+    n = dn_expand(NULL, NULL, NULL, NULL, 0);
+    return n;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_getifaddrs succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-fZ6m7J
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c98ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c98ae.dir/build.make CMakeFiles/cmTC_c98ae.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-fZ6m7J'
+Building CXX object CMakeFiles/cmTC_c98ae.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_getifaddrs  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_c98ae.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-fZ6m7J/src.cxx
+Linking CXX executable cmTC_c98ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c98ae.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c98ae.dir/src.cxx.o -o cmTC_c98ae
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-fZ6m7J'
+
+
+Source file was:
+ #include <sys/types.h>
+#include <sys/socket.h>
+#include <net/if.h>
+#include <ifaddrs.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+ifaddrs *list;
+getifaddrs(&list);
+freeifaddrs(list);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_ipv6ifname succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9HNcSp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8cbc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8cbc7.dir/build.make CMakeFiles/cmTC_8cbc7.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9HNcSp'
+Building CXX object CMakeFiles/cmTC_8cbc7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ipv6ifname  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_8cbc7.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9HNcSp/src.cxx
+Linking CXX executable cmTC_8cbc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cbc7.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8cbc7.dir/src.cxx.o -o cmTC_8cbc7
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9HNcSp'
+
+
+Source file was:
+ #include <sys/types.h>
+#include <sys/socket.h>
+#include <net/if.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+char buf[IFNAMSIZ];
+if_nametoindex("eth0");
+if_indextoname(1, buf);
+if_freenameindex(if_nameindex());
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_linux_netlink succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-UVvSFF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07178/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07178.dir/build.make CMakeFiles/cmTC_07178.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-UVvSFF'
+Building CXX object CMakeFiles/cmTC_07178.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_linux_netlink  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_07178.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-UVvSFF/src.cxx
+Linking CXX executable cmTC_07178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07178.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_07178.dir/src.cxx.o -o cmTC_07178
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-UVvSFF'
+
+
+Source file was:
+ #include <asm/types.h>
+#include <linux/netlink.h>
+#include <linux/rtnetlink.h>
+#include <sys/socket.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+struct rtattr rta = { };
+struct ifinfomsg ifi = {};
+struct ifaddrmsg ifa = {};
+struct ifa_cacheinfo ci;
+ci.ifa_prefered = ci.ifa_valid = 0;
+(void)RTM_NEWLINK; (void)RTM_NEWADDR;
+(void)IFLA_ADDRESS; (void)IFLA_IFNAME;
+(void)IFA_ADDRESS; (void)IFA_LABEL; (void)IFA_CACHEINFO;
+(void)(IFA_F_SECONDARY | IFA_F_DEPRECATED | IFA_F_PERMANENT | IFA_F_MANAGETEMPADDR);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_evdev succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G3ef22
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_902f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_902f7.dir/build.make CMakeFiles/cmTC_902f7.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G3ef22'
+Building CXX object CMakeFiles/cmTC_902f7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_evdev  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_902f7.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G3ef22/src.cxx
+Linking CXX executable cmTC_902f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_902f7.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_902f7.dir/src.cxx.o -o cmTC_902f7
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-G3ef22'
+
+
+Source file was:
+ #if defined(__FreeBSD__)
+#  include <dev/evdev/input.h>
+#else
+#  include <linux/input.h>
+#  include <linux/kd.h>
+#endif
+enum {
+    e1 = ABS_PRESSURE,
+    e2 = ABS_X,
+    e3 = REL_X,
+    e4 = SYN_REPORT,
+};
+
+int main(void)
+{
+    /* BEGIN TEST: */
+input_event buf[32];
+(void) buf;
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_linuxfb succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Zn4WzH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af8ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af8ad.dir/build.make CMakeFiles/cmTC_af8ad.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Zn4WzH'
+Building CXX object CMakeFiles/cmTC_af8ad.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_linuxfb  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_af8ad.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Zn4WzH/src.cxx
+Linking CXX executable cmTC_af8ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af8ad.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_af8ad.dir/src.cxx.o -o cmTC_af8ad
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-Zn4WzH'
+
+
+Source file was:
+ #include <linux/fb.h>
+#include <sys/kd.h>
+#include <sys/ioctl.h>
+
+int main(void)
+{
+    /* BEGIN TEST: */
+fb_fix_screeninfo finfo;
+fb_var_screeninfo vinfo;
+int fd = 3;
+ioctl(fd, FBIOGET_FSCREENINFO, &finfo);
+ioctl(fd, FBIOGET_VSCREENINFO, &vinfo);
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_pointer_64bit succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-KxmWAG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc87e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc87e.dir/build.make CMakeFiles/cmTC_cc87e.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-KxmWAG'
+Building CXX object CMakeFiles/cmTC_cc87e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_pointer_64bit  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_cc87e.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-KxmWAG/src.cxx
+Linking CXX executable cmTC_cc87e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc87e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_cc87e.dir/src.cxx.o -o cmTC_cc87e
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-KxmWAG'
+
+
+Source file was:
+
+
+
+int main(int argc, char **argv)
+{
+    (void)argc; (void)argv;
+    /* BEGIN TEST: */
+static_assert(sizeof(void *) == 8, "fail");
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_arm_fp succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JCg3Fe
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd923/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd923.dir/build.make CMakeFiles/cmTC_dd923.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JCg3Fe'
+Building CXX object CMakeFiles/cmTC_dd923.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_arm_fp  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_dd923.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JCg3Fe/src.cxx
+Linking CXX executable cmTC_dd923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd923.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_dd923.dir/src.cxx.o -o cmTC_dd923
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-JCg3Fe'
+
+
+Source file was:
+
+
+
+int main(int argc, char **argv)
+{
+    (void)argc; (void)argv;
+    /* BEGIN TEST: */
+// if !defined(__ARM_FP) we might be on MSVC or we might have a device
+// without an FPU.
+// TODO: The latter case is not supported, but the test still succeeds.
+#if defined(__ARM_FP) && (__ARM_FP <= 0x04)
+#    error "fail"
+#endif
+    /* END TEST: */
+    return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_ICONV succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9hl6W6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b6bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b6bf.dir/build.make CMakeFiles/cmTC_4b6bf.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9hl6W6'
+Building CXX object CMakeFiles/cmTC_4b6bf.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ICONV  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_4b6bf.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9hl6W6/src.cxx
+Linking CXX executable cmTC_4b6bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b6bf.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_4b6bf.dir/src.cxx.o -o cmTC_4b6bf
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-9hl6W6'
+
+
+Source file was:
+#include <iconv.h>
+
+int main(int, char **)
+{
+    iconv_t x = iconv_open("", "");
+    iconv_close(x);
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_freetype succeeded with the following output:
+Change Dir: /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-OSv0Eu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5219c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5219c.dir/build.make CMakeFiles/cmTC_5219c.dir/build
+gmake[1]: Entering directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-OSv0Eu'
+Building CXX object CMakeFiles/cmTC_5219c.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_freetype -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -fPIE -std=gnu++17 -o CMakeFiles/cmTC_5219c.dir/src.cxx.o -c /ghjk/build/CMakeFiles/CMakeScratch/TryCompile-OSv0Eu/src.cxx
+Linking CXX executable cmTC_5219c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5219c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5219c.dir/src.cxx.o -o cmTC_5219c  /usr/lib/aarch64-linux-gnu/libfreetype.so
+gmake[1]: Leaving directory '/ghjk/build/CMakeFiles/CMakeScratch/TryCompile-OSv0Eu'
+
+
+Source file was:
+
+#include <ft2build.h>
+#include FT_FREETYPE_H
+#if ((FREETYPE_MAJOR*10000 + FREETYPE_MINOR*100 + FREETYPE_PATCH) < 20402)
+#  error This version of freetype is too old.
+#endif
+int main() {
+    FT_Face ft_face = 0;
+    FT_Reference_Face(ft_face);
+    return 0;
+}
