@@ -2,7 +2,7 @@
 
 ## build on aws etc
 
-`c6gd.8xlarge` is 32c / 64gb mem and within quota
+`c6g.8xlarge` is 32c / 64gb mem and within quota
 
 ## 18.04 fails
 

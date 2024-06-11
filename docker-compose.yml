@@ -1,4 +1,10 @@
 services:
+  torizon:
+    image: mattipaksula/kuutee:torizon
+    build:
+      context: .
+      dockerfile: Dockerfile.torizon
+    
   ubuntu1804:
     image: mattipaksula/kuutee:arm-ubuntu-18-04-qt-6.6.3-static
     build:
